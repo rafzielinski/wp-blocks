@@ -1,0 +1,19 @@
+{
+	"apiVersion": 2,
+	"name": "primate/hero",
+	"version": "0.1.0",
+	"title": "Hero",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "hero",
+	"style": "file:./style-index.css",
+	"acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+	"align": "full"
+}
